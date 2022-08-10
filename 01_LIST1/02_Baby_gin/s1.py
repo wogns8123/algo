@@ -1,28 +1,32 @@
-n = int(input())
-arr = []
-for _ in range(n):
-    arr.append(input())
-    for number in arr[_]:    # 각 문자열 ''
-        # triplet 여부확인 
-        if arr[_].count(number)>3:
+tc = int(input())
+
+for test in range(tc):
+    s = input()
+    arr = [0]*10 # 카운팅
+
+    for i in s:
+        arr[int(i)] += 1
+
+    j = 0
+    triplet = run = 0
+    while j < 10:
+        if arr[j]>=3:
+            triplet +=1
+            arr[j] -= 3
             continue
-        # run 
-        elif (number-1,number,number+1):
+        j+=1
+    j = 0
+    while j<=7:
+        if arr[j] != 0 and arr[j]==arr[j+1]==arr[j+2]:
+            run +=1
+            arr[j + 2] -= 1
+            arr[j + 1] -= 1
+            arr[j] -= 1
             continue
-            if number==8 or number == 9:
-                
-        
+        j += 1
+    if triplet + run == 2:
+        print(1)
+    else:
+        print(0)
 
-            
 
-
-    # arr.append(list(input()))
-    # for j in arr:       # j는 리스트 속 리스트 
-    #     for number in j:    # j의 각 요소 
-    #         count=0
-    #         if number in j:
-    #             count +=1
-    #         if count >3 or [number,int(number)-1,int(number)+1] in j:
-    #             print(1)
-    #         else:
-    #             print(0)   
