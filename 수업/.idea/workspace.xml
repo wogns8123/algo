@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39f8543c-7573-4828-a499-ac390221f676" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../02_LIST2 실습/4837_부분집합의 합/p1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_LIST2 실습/4839_이진탐색/p1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_LIST2/snail/snail_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_LIST1/1208. Flatten/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_LIST1/1208. Flatten/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_LIST1/4828_mix_max/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_LIST1/4831.전기버스/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_LIST1/4834. card/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_LIST1/4834. card/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_LIST1/4835.구간합/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/.idea/0810 LIST2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/2중배열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/2증배열_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/list2(이차원배열)_ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/test_.대각선.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/test_대각선양쪽.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/test_사선의합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/test_이중배열.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/test_최대행의합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/간단한 부분집합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/부분집합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/선택.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0810 LIST2/선택정렬.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../List1_이론.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2DBs91Q8Qqk1fci8VciRLfWudOt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39f8543c-7573-4828-a499-ac390221f676" name="Default Changelist" comment="" />
+      <created>1660183656300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660183656300</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
