@@ -8,13 +8,18 @@ stack = [0] * N
 top = -1
 
 top+=1
-print(push(1))
+push(1)
+print(stack)
 top+=1
-print(push(2))
+push(2)
+print(stack)
 top+=1
-print(push(3))
+push(3)
+print(stack)
 
-
-print(pop())
-print(pop())
-print(pop())
+top = pop()
+print(stack)
+top = pop()
+print(stack)
+top = pop()
+print(stack)

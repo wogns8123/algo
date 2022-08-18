@@ -17,11 +17,11 @@ def dfs(graph,start,end):
 for test in range(10):
     test_number, E = map(int,input().split())
     arr = list(map(str, input().split()))
-    graph = {}
-    for i in range(1,101):
-        graph[i] = []
-    for i in range(E):
-        start, end = arr[2*i], arr[2*i+1]
+
+    graph = {x: [] for x in range(100)}
+    for i in range(0, E * 2, 2):
+        start = arr[i]
+        end = arr[i + 1]
         graph[start].append(end)
     print(graph)
     # print(dfs(graph,start,end))
