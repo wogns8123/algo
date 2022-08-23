@@ -1,7 +1,7 @@
 import sys
 sys.stdin=open('sample_input.txt')
 
-def asdf(lst,n):
+def asd f(lst,n):
     result = []
     if n > len(arr):
         return result
