@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('../../완전검색 그리디1/input.txt')
 
 def bfs(start_i,start_j):
     visited = [[0]*n for _ in range(n)]
