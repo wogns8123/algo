@@ -1,4 +1,24 @@
+# result = []
+# for i in range(max(arr)+1):
+#     while i in dic and dic[i] != 0:
+#         result.append(i)
+#         dic[i] -= 1
+# print(result)
 arr = [1,2,3,1,2,3,4,5,6,7]
+
+dic = {}
+for i in arr:
+    if i in dic:
+        dic[i] += 1
+    else:
+        dic[i] = 1
+# print(dic)
+result= []
+for i in range(max(arr)+1):
+    while i in dic and dic[i] != 0:
+        result.append(i)
+        dic[i] -= 1
+print(result)
 # list를 이용한 방법
 # 1. 개수를 세어준다.
 # count = [0] * (max(arr)+1)
@@ -19,17 +39,25 @@ arr = [1,2,3,1,2,3,4,5,6,7]
 # print(result)
 
 # dic
-dic = {}
-for i in arr:
-    if i in dic:
-        dic[i] += 1
-    else:
-        dic[i] = 1
-result = []
+# dic = {}
+# for i in arr:
+#     if i in dic:
+#         dic[i] += 1
+#     else:
+#         dic[i] = 1
+# result = []
+#
+# for i in range(max(arr)+1):
+#     while i in dic and dic[i] != 0:
+#         result.append(i)
+#         dic[i] -= 1
+# print(result)
 
-for i in range(max(arr)+1):
-    while i in dic and dic[i] != 0:
-        result.append(i)
-        dic[i] -= 1
-print(result)
 
+# dic = {}
+# for i in arr:
+#     if i in dic:
+#         dic[i] += 1
+#     else:
+#         dic[i] = 1
+#
