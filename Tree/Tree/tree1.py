@@ -41,5 +41,6 @@ for i in range(E):
         ch1[p] = c      # 자식1로 저장
     else:
         ch2[p] = c
-
+print(ch1)
+print(ch2)
 inorder(root)
