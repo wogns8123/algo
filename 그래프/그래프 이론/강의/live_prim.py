@@ -40,8 +40,9 @@ def prim2(r, V): # prim1보다 간단
         u = 0
         minV = 10000
         for i in range(V+1):    # MST에 포함된 정점i와 인접한 정점j 중 MST에 포함되지 않고 가중치가 최소인 정점 u찾기
-            if MST[i]==1:
-                for j in range(V+1):
+            if MST[i]==1:       # 정점과 연결되어있는
+                for j in range(V+1):        # j는 인접한 정점
+
                     if adjM[i][j]>0 and MST[j]==0 and minV>adjM[i][j]:
                         u = j
                         minV = adjM[i][j]
@@ -56,9 +57,9 @@ for _ in range(E):
     u, v, w = map(int, input().split())
     adjM[u][v] = w
     adjM[v][u] = w  # 가중치가 있는 무방향 그래프
-    adjL[u].append((v, w))
-    adjL[v].append((u, w))
+    # adjL[u].append((v, w))
+    # adjL[v].append((u, w))
 print(adjM)
-print(adjL)
-#print(prim1(0, V))
+# print(adjL)
+# print(prim1(0, V))
 print(prim2(0, V))

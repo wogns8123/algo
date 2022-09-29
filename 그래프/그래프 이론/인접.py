@@ -8,7 +8,8 @@ arr = list(map(int,input().split()))
 # 인접행렬
 adjM = [[0]*(V+1) for _ in range(V+1)]
 adjL = [[] for _ in range(V+1)]
-
+for i in adjM:
+    print(i)
 for i in range(E):
     n1, n2 = arr[i*2], arr[i*2+1]
     adjM[n1][n2] = 1
@@ -16,5 +17,6 @@ for i in range(E):
 
     adjL[n1].append(n2)
     adjL[n2].append(n1)
-print(adjM)
+for i in adjM:
+    print(i)
 print(adjL)
